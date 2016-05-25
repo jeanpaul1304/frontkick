@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	<name> -- <role> -- <twitter>
+	Jean Paul Diaz Vivanco -- Front-end Dev -- @jeanpaul1304
+
+# THANKS
+
+  <name>
+  Google
+
+# TECHNOLOGY COLOPHON
+
+	Precompilers
+		- JADE / STYLUS / COFFEESCRIPT
+  	HTML5, CSS3, JS, REQUIREJS
