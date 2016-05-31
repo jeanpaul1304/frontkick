@@ -14,4 +14,4 @@
 
 	Precompilers
 		- JADE / STYLUS / COFFEESCRIPT
-  	HTML5, CSS3, JS, REQUIREJS
+  	HTML5, CSS3, JS
