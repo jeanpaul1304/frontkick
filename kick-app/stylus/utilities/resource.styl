@@ -1,0 +1,74 @@
+@font-face
+	fontFace('DIN-MediumAlternate')
+@font-face
+	fontFace('DINPRO-BOLD')
+@font-face
+	fontFace('LinotypeUnivers-BasicRegular')
+@font-face
+	fontFace('ufonts.com_futura-book-bt')
+@font-face
+	fontFace('linotypeunivers-basicmedium-webfont')	
+@font-face
+	fontFace('ltunivers-basicthin-webfont')	
+body
+	background white
+	font-family $linoRegular
+	min-height 100%
+	font-size $baseFont
+	color $gray-99
+	overflow-x hidden
+#wrapper
+	padding-top 65px
+section
+	position relative
+	width 100%
+	max-width $usefulWidth
+	margin 0 auto
+	text-align center
+.cf
+	clear both
+.pull-right
+	float right
+.pull-left
+	float left
+.text-center
+	text-align center
+.row
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+.tabs
+	> ul
+		> li
+			display inline-block
+	> div
+		> div
+			display none
+			&:first-child
+				display block
+.btn
+	display inline-block
+	border-radius 5px
+	border none
+.btn--skyblue
+	background $skyblue
+	color white
+.btn--medium
+	padding 8px 10px 7px
+	em(16px)
+.btn--big
+	padding 10px 55px
+	em(24px)
+.float-right
+	float right
+.float-left
+	float left
+::-webkit-input-placeholder
+:-moz-placeholder
+::-moz-placeholder
+:-ms-input-placeholder
+	color white
