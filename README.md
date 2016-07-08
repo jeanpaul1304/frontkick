@@ -9,6 +9,17 @@ El *combo breaker* de la automatización
 
 El *fatality* de tu aplicación
 
+## Kick Root
+
+Instala las dependencias generales necesarias:
+```sh
+	$ npm firstKick
+```
+Instala dependencias utilizando npm-cache para aligerar la carga:
+```sh
+	$ npm getReady
+```
+
 ### Index Things
 Los escenciales de todo proyecto web
 + Favicon -> Icono de la web
