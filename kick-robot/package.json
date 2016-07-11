@@ -9,12 +9,14 @@
     "workflow"
   ],
   "author": "Jean Paul Diaz Vivanco @jeanpaul1304",
+  "dependencies": {},
   "devDependencies": {
     "coffee-script": "*",
-    "gulp": "^3.9.1",
-    "gulp-load-plugins": "^1.2.4",
-    "gulp-uglify": "^1.5.4",
-    "plumber": "^0.4.8",
+    "gulp": "*",
+    "gulp-coffee": "*",
+    "gulp-load-plugins": "*",
+    "gulp-plumber": "*",
+    "gulp-uglify": "*",
     "require-dir": "*"
   }
 }

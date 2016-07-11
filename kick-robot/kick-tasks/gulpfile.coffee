@@ -7,8 +7,7 @@ requireDir        = require 'require-dir'
 requireDir './',
 	recurse: true
 
-# Simple Watch Command for a more serious one try production.coffee
+# Simple Watch Command
 gulp.task 'watch', ->
-	console.log 'hola'
 	gulp.watch '../kick-app/coffee/*.coffee', ['coffee']
 	# gulp.watch 'src/bower/**', ['scripts']
